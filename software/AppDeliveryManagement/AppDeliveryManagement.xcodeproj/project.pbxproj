@@ -14,6 +14,7 @@
 		E5A6913F205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A6913D205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift */; };
 		E5A69140205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6913E205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.xib */; };
 		E5A69144205ED7FE00418072 /* DMPendingDelivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A69143205ED7FE00418072 /* DMPendingDelivery.swift */; };
+		E5A69146205EDAAD00418072 /* DMPedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A69145205EDAAD00418072 /* DMPedido.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E5A6913D205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMPendingDeliveryCellTableViewCell.swift; sourceTree = "<group>"; };
 		E5A6913E205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMPendingDeliveryCellTableViewCell.xib; sourceTree = "<group>"; };
 		E5A69143205ED7FE00418072 /* DMPendingDelivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMPendingDelivery.swift; sourceTree = "<group>"; };
+		E5A69145205EDAAD00418072 /* DMPedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMPedido.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				E5A69129205ED08D00418072 /* AppDelegate.swift */,
+				E5A69147205EDAB000418072 /* ENTITIES */,
 				E5A69142205ED54900418072 /* VIEWS */,
 				E5A6912D205ED08D00418072 /* Main.storyboard */,
 				E5A69130205ED08D00418072 /* Assets.xcassets */,
@@ -84,6 +87,14 @@
 				E5A69141205ED54000418072 /* PendingDelivery */,
 			);
 			path = VIEWS;
+			sourceTree = "<group>";
+		};
+		E5A69147205EDAB000418072 /* ENTITIES */ = {
+			isa = PBXGroup;
+			children = (
+				E5A69145205EDAAD00418072 /* DMPedido.swift */,
+			);
+			path = ENTITIES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				E5A69144205ED7FE00418072 /* DMPendingDelivery.swift in Sources */,
 				E5A6913F205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift in Sources */,
 				E5A6912A205ED08D00418072 /* AppDelegate.swift in Sources */,
+				E5A69146205EDAAD00418072 /* DMPedido.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

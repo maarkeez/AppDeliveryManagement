@@ -42,6 +42,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Pendientes" id="7Ha-KT-GE5"/>
+                    <connections>
+                        <outlet property="myMap" destination="PEZ-By-159" id="eLg-6y-R9X"/>
+                        <outlet property="myTable" destination="PJg-tx-4fd" id="7qQ-eY-r9i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
