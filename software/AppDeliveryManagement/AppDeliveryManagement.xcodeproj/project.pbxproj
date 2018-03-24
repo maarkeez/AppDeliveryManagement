@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E538F97F2065DBB6009C914C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E538F97E2065DBB6009C914C /* Assets.xcassets */; };
 		E5A6912A205ED08D00418072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A69129205ED08D00418072 /* AppDelegate.swift */; };
 		E5A6912F205ED08D00418072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A6912D205ED08D00418072 /* Main.storyboard */; };
-		E5A69131205ED08D00418072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A69130205ED08D00418072 /* Assets.xcassets */; };
 		E5A69134205ED08D00418072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A69132205ED08D00418072 /* LaunchScreen.storyboard */; };
 		E5A6913F205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A6913D205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift */; };
 		E5A69140205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A6913E205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.xib */; };
@@ -25,10 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E538F97E2065DBB6009C914C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5A69126205ED08D00418072 /* AppDeliveryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDeliveryManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A69129205ED08D00418072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A6912E205ED08D00418072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E5A69130205ED08D00418072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5A69133205ED08D00418072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5A69135205ED08D00418072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A6913D205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMPendingDeliveryCellTableViewCell.swift; sourceTree = "<group>"; };
@@ -58,6 +58,7 @@
 		E5A6911D205ED08C00418072 = {
 			isa = PBXGroup;
 			children = (
+				E538F97E2065DBB6009C914C /* Assets.xcassets */,
 				E5A69128205ED08D00418072 /* AppDeliveryManagement */,
 				E5A69127205ED08D00418072 /* Products */,
 			);
@@ -79,7 +80,6 @@
 				E5A6915620607B1600418072 /* SERVICES */,
 				E5A69142205ED54900418072 /* VIEWS */,
 				E5A6912D205ED08D00418072 /* Main.storyboard */,
-				E5A69130205ED08D00418072 /* Assets.xcassets */,
 				E5A69132205ED08D00418072 /* LaunchScreen.storyboard */,
 				E5A69135205ED08D00418072 /* Info.plist */,
 			);
@@ -187,7 +187,7 @@
 			files = (
 				E5A69140205ED53C00418072 /* DMPendingDeliveryCellTableViewCell.xib in Resources */,
 				E5A69134205ED08D00418072 /* LaunchScreen.storyboard in Resources */,
-				E5A69131205ED08D00418072 /* Assets.xcassets in Resources */,
+				E538F97F2065DBB6009C914C /* Assets.xcassets in Resources */,
 				E5A6912F205ED08D00418072 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
