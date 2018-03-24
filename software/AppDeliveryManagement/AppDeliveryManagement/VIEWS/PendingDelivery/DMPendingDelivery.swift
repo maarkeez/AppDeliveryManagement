@@ -125,8 +125,8 @@ extension DMPendingDelivery : MKMapViewDelegate,CLLocationManagerDelegate{
         
         if let location = locations.last  {
             //Centrar el mapa
-            let region = MKCoordinateRegionMakeWithDistance(location.coordinate, 200, 200)
-            myMap.setRegion(myMap.regionThatFits(region), animated: true)
+            //let region = MKCoordinateRegionMakeWithDistance(location.coordinate, 200, 200)
+            //myMap.setRegion(myMap.regionThatFits(region), animated: true)
             
             //Añadir pin
             let annotationCurrentLocation = MKPointAnnotation()
