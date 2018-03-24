@@ -23,7 +23,7 @@ class DMDPedido {
         self.productos = productos
     }
     
-    init(id: Int, fechaPedido: Date, fechaEntrega: Date?, usuario: DMDUsuario, direccion: DMDDireccion, productos: [DMDProducto]) {
+    init(id: Int, fechaPedido: Date, fechaEntrega: Date, usuario: DMDUsuario, direccion: DMDDireccion, productos: [DMDProducto]) {
         self.id = id
         self.fechaPedido = fechaPedido
         self.fechaEntrega = fechaEntrega
@@ -32,5 +32,12 @@ class DMDPedido {
         self.productos = productos
     }
     
+    func buildMapAdress() -> String {
+        return direccion.calle + ", " + direccion.cuidad.nombre + ", " + direccion.CP
+    }
+    
+    func buildStringId() -> String {
+        return "#" + String(format: "%09d", id)
+    }
   
 }

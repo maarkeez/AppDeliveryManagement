@@ -25,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E51011B92066AD460056B5F2 /* AlonsoMendoza.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AlonsoMendoza.gpx; sourceTree = "<group>"; };
 		E538F97E2065DBB6009C914C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5A69126205ED08D00418072 /* AppDeliveryManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDeliveryManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A69129205ED08D00418072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51011BA2066AD6C0056B5F2 /* UTILS */ = {
+			isa = PBXGroup;
+			children = (
+				E51011B92066AD460056B5F2 /* AlonsoMendoza.gpx */,
+			);
+			path = UTILS;
+			sourceTree = "<group>";
+		};
 		E5A6911D205ED08C00418072 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +87,7 @@
 				E5A69129205ED08D00418072 /* AppDelegate.swift */,
 				E5A69147205EDAB000418072 /* ENTITIES */,
 				E5A6915620607B1600418072 /* SERVICES */,
+				E51011BA2066AD6C0056B5F2 /* UTILS */,
 				E5A69142205ED54900418072 /* VIEWS */,
 				E5A6912D205ED08D00418072 /* Main.storyboard */,
 				E5A69132205ED08D00418072 /* LaunchScreen.storyboard */,

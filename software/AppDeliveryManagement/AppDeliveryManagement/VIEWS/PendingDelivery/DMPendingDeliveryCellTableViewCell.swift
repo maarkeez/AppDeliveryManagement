@@ -10,6 +10,9 @@ import UIKit
 
 class DMPendingDeliveryCellTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var myAdress: UILabel!
+    @IBOutlet weak var myDeliveryId: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
